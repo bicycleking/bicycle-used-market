@@ -1,6 +1,6 @@
 // src/components/PostForm.tsx
 import { useState } from 'react'
-import { categories } from '@/data/categories'
+import { categories } from '../data/categories'
 
 const PostForm = () => {
   const [mainCategory, setMainCategory] = useState('')
