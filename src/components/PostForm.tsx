@@ -1,5 +1,4 @@
-// 📁 src/components/PostForm.tsx
-
+// src/components/PostForm.tsx
 import { useState } from 'react'
 import { categories } from '@/data/categories'
 
@@ -58,7 +57,7 @@ const PostForm = () => {
         </div>
       )}
 
-      {/* 3단계 카테고리 (선택적) */}
+      {/* 3단계 카테고리 */}
       {selectedSub?.children && (
         <div className="mb-4">
           <label className="block mb-1 font-medium">3단계: 세부 항목</label>
