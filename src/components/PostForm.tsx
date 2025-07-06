@@ -76,6 +76,26 @@ const PostForm = () => {
         </div>
       )}
 
+      {/* 제목 */}
+      <input
+        type="text"
+        placeholder="제목을 입력하세요"
+        className="border p-2 rounded w-full mb-4"
+      />
+
+      {/* 내용 */}
+      <textarea
+        placeholder="내용을 입력하세요"
+        className="border p-2 rounded w-full h-40 mb-4"
+      />
+
+      {/* 가격 */}
+      <input
+        type="number"
+        placeholder="가격 (원)"
+        className="border p-2 rounded w-full mb-4"
+      />
+
       {/* 임시 출력 */}
       <div className="mt-6 text-sm text-gray-500">
         선택된 카테고리: {mainCategory} / {subCategory} / {thirdCategory}
